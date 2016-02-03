@@ -33,9 +33,9 @@ exports.list = function (req, res) {
 
         res.render('index', {
             title : '나의 칸반보드',
-            todoTasks : todoTasks,
-            inProgressTasks : inProgressTasks,
-            doneTasks : doneTasks
+            todo : todoTasks,
+            inProgress : inProgressTasks,
+            done : doneTasks
         });
     });
 };
